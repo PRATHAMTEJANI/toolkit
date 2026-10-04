@@ -1,0 +1,41 @@
+{
+  "name": "converthub-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "worker": "tsx scripts/worker.ts",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@supabase/supabase-js": "^2.117.2",
+    "bullmq": "^6.3.11",
+    "file-type": "^22.1.1",
+    "framer-motion": "^12.4.7",
+    "ioredis": "^6.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.2.0",
+    "pdf-lib": "^1.17.1",
+    "pino": "^10.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5",
+    "tus-js-client": "^4.3.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "^15.2.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.3"
+  }
+}

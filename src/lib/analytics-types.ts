@@ -1,0 +1,22 @@
+export type AnalyticsEventType = "page_view" | "tool_used" | "upload" | "download" | "conversion_started" | "conversion_succeeded" | "conversion_failed" | "session_end";
+export type ClientAnalytics = {
+  visitorId: string;
+  sessionId: string;
+  eventType: AnalyticsEventType;
+  browser?: string;
+  browserVersion?: string;
+  operatingSystem?: string;
+  deviceType?: "mobile" | "tablet" | "desktop";
+  screenResolution?: string;
+  language?: string;
+  timezone?: string;
+  referrer?: string;
+  utmSource?: string;
+  utmMedium?: string;
+  utmCampaign?: string;
+  toolUsed?: string;
+  format?: string;
+  durationSeconds?: number;
+  processingTimeMs?: number;
+  errorCode?: string;
+};
